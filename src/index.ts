@@ -65,8 +65,7 @@ function mixinExample2_Constrained() {
 function alternativePattern() {
   // classes for mixins can not inherit any other classes because they will be discarded
   class Jumpable {
-    x = 0;
-    y = 0;
+    constructor(public x: number, public y: number) {}
 
     jump() {
       function calcNextPos(pos: number) {
@@ -78,19 +77,26 @@ function alternativePattern() {
     }
   }
 
-  const j = new Jumpable();
+  const j = new Jumpable(1, 1);
 
   class Duckable {
-    sound = 'duck sound';
+    constructor(public sound: string) {}
+
     duck() {
       return this.sound;
     }
   }
 
-  const d = new Duckable();
+  const d = new Duckable('default duck sound');
 
   class Sprite {
     #color = '';
+
+    constructor(args: [duck: Duckable, jump: Jumpable]) {
+      args.forEach((arg) => {
+        Object.assign(this, arg);
+      });
+    }
 
     get color() {
       return this.#color;
@@ -101,18 +107,21 @@ function alternativePattern() {
     }
   }
 
-  const s = new Sprite();
+  const s = new Sprite([d, j]);
 
   (() => {
     // then you create an interface which merges
     // the expected mixins with the same name as your base
-    interface Sprite extends Jumpable, Duckable {}
+    interface SpriteMix extends Jumpable, Duckable {
+      color: string;
+    }
 
     // Apply the mixins into the base class via
     // the JS at runtime
     applyMixins(Sprite, [Jumpable, Duckable]);
 
-    let player = new Sprite();
+    let player = new Sprite([d, j]) as undefined as SpriteMix;
+
     player.jump();
     player.color = 'custom';
     console.log('player position ', player.x, player.y);
@@ -124,27 +133,6 @@ function alternativePattern() {
       let propertyNames: string[] = [];
 
       propertyNames = Object.getOwnPropertyNames(baseCtor.prototype);
-
-      // propertyNames = getOwnPropertyNamesBigger(baseCtor, propertyNames);
-
-      // function getOwnPropertyNamesBigger(baseCtor, propertyNames) {
-      //   let returnedProto = baseCtor.prototype;
-      //   if (!returnedProto) {
-      //     let proto = Object.getPrototypeOf(baseCtor);
-      //     returnedProto = proto.constructor.prototype;
-
-      //     if (!returnedProto || !returnedProto.__proto__) {
-      //       return propertyNames;
-      //     }
-      //   }
-      //   const returnedProperties = Object.getOwnPropertyNames(returnedProto);
-      //   returnedProperties.forEach((prop) => {
-      //     if (propertyNames.indexOf(prop) === -1) {
-      //       propertyNames.push(prop);
-      //     }
-      //   });
-      //   return getOwnPropertyNamesBigger(returnedProto, propertyNames);
-      // }
 
       propertyNames.forEach((name) => buildProperty(name));
 

@@ -1,14 +1,10 @@
 console.log('should run');
 
-(function main() {})();
+(async function main() {
+  //
 
-const a = {
-  b: 'val 1',
-  c: 'val 2',
-};
-
-const arr = [1, 3, 3];
-
-// for (let i in arr) {
-//   console.log(i);
-// }
+  setTimeout(() => console.log('timeout'));
+  const p = new Promise((resolve) => resolve('resolved'));
+  const r = await p;
+  console.log('result ', r);
+})();

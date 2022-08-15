@@ -1,22 +1,11 @@
 console.log('should run');
 
 function varAndLetScope() {
-  var a = 1;
-  var b = 2;
+  let x = 1;
 
-  if (a === 1) {
-    var a = 11; // the scope is global
-    let b = 22; // the scope is inside the if-block
-
-    console.log(`a `, a); // 11
-    console.log(`b `, b); // 22
+  {
+    var x = 2; // SyntaxError for re-declaration
   }
-
-  console.log(`a`, a); // 11
-  console.log('b', b); // 2
-
-  //var, whose scope is inside the function where it is declared
-  // let limits the variable's scope to that block
 }
 
 (async function main() {

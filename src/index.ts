@@ -1,32 +1,25 @@
 console.log('should run');
 
-function calculateTime() {
-  const slotAssignmentDate = new Date('2022-08-12T10:00:00.000Z');
+function varAndLetScope() {
+  var a = 1;
+  var b = 2;
 
-  const millisecondsInHour = 60 * 60 * 1000;
-  const millisecondsInOneDay = millisecondsInHour * 24;
+  if (a === 1) {
+    var a = 11; // the scope is global
+    let b = 22; // the scope is inside the if-block
 
-  const slotAssignmentNotificationDayBeforeDate = new Date(
-    slotAssignmentDate.getTime() - millisecondsInOneDay
-  );
+    console.log(`a `, a); // 11
+    console.log(`b `, b); // 22
+  }
 
-  const slotAssignmentNotificationTwoHoursBeforeDate = new Date(
-    slotAssignmentDate.getTime() - millisecondsInHour * 2
-  );
+  console.log(`a`, a); // 11
+  console.log('b', b); // 2
 
-  console.log(`slotAssignmentDate`, slotAssignmentDate);
-
-  console.log(
-    `slotAssignmentNotificationDayBeforeDate`,
-    slotAssignmentNotificationDayBeforeDate
-  );
-  console.log(
-    `slotAssignmentNotificationTwoHoursBeforeDate`,
-    slotAssignmentNotificationTwoHoursBeforeDate
-  );
+  //var, whose scope is inside the function where it is declared
+  // let limits the variable's scope to that block
 }
 
 (async function main() {
   //
-  calculateTime();
+  varAndLetScope();
 })();

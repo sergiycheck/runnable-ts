@@ -1,9 +1,9 @@
 console.log('should run');
 
 (async function main() {
-  console.log(NaN === NaN); // false
-  console.log(0 === -0); // true
-
-  console.log(Object.is(NaN, NaN));
-  console.log(Object.is(0, -0));
+  var arr = ['1', '10', '100', '1000'] as any;
+  for (let i = 0; i < arr.length && arr[i] < 500; i++) {
+    // will run 3 times
+    console.log(i);
+  }
 })();

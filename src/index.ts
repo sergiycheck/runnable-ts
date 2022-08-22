@@ -1,12 +1,18 @@
 console.log('should run');
 
 (async function main() {
-  typeof 42; // "number"
-  typeof 'abc'; // "string"
-  typeof true; // "boolean"
-  typeof undefined; // "undefined"
-  typeof null; // "object" -- oops, bug!
-  typeof { a: 1 }; // "object"
-  typeof [1, 2, 3]; // "object"
-  typeof function hello() {}; // "function"
+  var adult = true;
+  var myName = 'GlobalName';
+
+  if (adult) {
+    var myName = 'Kyle';
+    let age = 39;
+    console.log('Shhh, this is a secret!');
+  }
+
+  console.log(myName);
+  // Kyle
+
+  // console.log(age);
+  // Error!
 })();

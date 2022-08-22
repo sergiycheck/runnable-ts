@@ -2,7 +2,7 @@ console.log('should run');
 
 (async function main() {
   var adult = true;
-  var myName = 'GlobalName';
+  // var myName = 'GlobalName';
 
   if (adult) {
     var myName = 'Kyle';

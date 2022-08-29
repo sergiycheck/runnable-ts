@@ -1,9 +1,17 @@
 console.log('should run');
 
 (async function main() {
-  var x = '10';
-  var y = '9';
-  var z = 8;
+  var adult = true;
 
-  x < y; // true, watch out!
+  if (adult) {
+    var myName = 'Kyle';
+    let age = 39;
+    console.log('Shhh, this is a secret!');
+  }
+
+  console.log(myName);
+  // Kyle
+
+  // console.log(age);
+  // Error!
 })();

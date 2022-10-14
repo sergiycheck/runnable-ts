@@ -1,15 +1,17 @@
 console.log('should run');
 
 (async function main() {
-  const homework = {
-    topic: 'js',
-  };
+  let n = 10;
+  const arrayWithHalfOfTheLength = new Array(Math.round(n / 2)).fill(1);
 
-  const otherHm = Object.create(homework);
+  let divisitorsCount = 1;
+  let numToDivide = 1;
+  arrayWithHalfOfTheLength.forEach(() => {
+    if (n % numToDivide === 0) {
+      ++divisitorsCount;
+    }
+    ++numToDivide;
+  });
 
-  console.log(otherHm.topic);
-
-  homework.topic = 'ts';
-
-  console.log(otherHm.topic);
+  console.log(divisitorsCount);
 })();

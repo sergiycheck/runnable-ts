@@ -1,17 +1,14 @@
 console.log('should run');
 
 (async function main() {
-  const myAddress = {
-    street: '123 JS Blvd',
-    city: 'Austin',
-    state: 'TX',
+  const Classroom = {
+    welcome() {
+      console.log('Welcome, students!');
+    },
   };
 
-  const yourAddress = myAddress;
+  const mathClass = Object.create(Classroom);
 
-  // I've got to move to a new house!
-  myAddress.street = '456 TS Ave';
-
-  console.log(yourAddress.street);
-  // 456 TS Ave
+  mathClass.welcome();
+  // Welcome, students!
 })();

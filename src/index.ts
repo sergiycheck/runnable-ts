@@ -1,17 +1,17 @@
 console.log('should run');
 
 (async function main() {
-  let n = 10;
-  const arrayWithHalfOfTheLength = new Array(Math.round(n / 2)).fill(1);
+  const myAddress = {
+    street: '123 JS Blvd',
+    city: 'Austin',
+    state: 'TX',
+  };
 
-  let divisitorsCount = 1;
-  let numToDivide = 1;
-  arrayWithHalfOfTheLength.forEach(() => {
-    if (n % numToDivide === 0) {
-      ++divisitorsCount;
-    }
-    ++numToDivide;
-  });
+  const yourAddress = myAddress;
 
-  console.log(divisitorsCount);
+  // I've got to move to a new house!
+  myAddress.street = '456 TS Ave';
+
+  console.log(yourAddress.street);
+  // 456 TS Ave
 })();

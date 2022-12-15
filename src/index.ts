@@ -1,18 +1,17 @@
 (function main() {
-  const obj = {
-    aOuter: function () {
-      const innerA = () => {
-        return this;
-      };
+  console.log(afuncExp);
+  if (typeof afuncExp === 'function') afuncExp();
 
-      return innerA;
-    },
+  console.log(afuncDecl);
+  if (typeof afuncDecl === 'function') afuncDecl();
+
+  var afuncExp = function () {
+    let a = '123';
+    console.log(a);
   };
 
-  const resultWithBoundObj = obj.aOuter();
-  const passedAOuter = obj.aOuter;
-  const resultWithGlobalThis = passedAOuter();
-
-  console.log('obj', resultWithBoundObj());
-  console.log('global ', resultWithGlobalThis());
+  function afuncDecl() {
+    let a = 'a declaration';
+    console.log(a);
+  }
 })();

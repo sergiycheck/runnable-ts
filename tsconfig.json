@@ -7,7 +7,6 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "es2017",
-    // "lib": ["ES2022", "DOM"],
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",

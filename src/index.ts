@@ -1,10 +1,16 @@
 (function main() {
-  askQuestion();
-  // ReferenceError
+  var studentName = "Kyle";
 
-  let studentName = "Suzy";
+  {
+    // @ts-ignore
+    console.log(studentName);
+    // ???
 
-  function askQuestion() {
-    console.log(`${studentName}, do you know?`);
+    // ..
+
+    let studentName = "Suzy";
+
+    console.log(studentName);
+    // Suzy
   }
 })();

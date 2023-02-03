@@ -1,24 +1,21 @@
 (function main() {
-  const lookupStudents = (studentId: number) => {
-    const students = {
-      1: {
-        id: 1, name: 'Frank',
-      },
-      2: {
-        id: 2, name: 'John',
+  (function fizzBuzz() {
+    new Array(101).fill(true).forEach((_, index) => {
+      if (index == 0) return;
+      const remainderOf3Eq0 = index % 3 == 0;
+      const remainderOf5Eq0 = index % 5 == 0;
+
+      if (remainderOf3Eq0 && remainderOf5Eq0) {
+        console.log(`FizzBuzz`);
+        return;
+      } else if (remainderOf3Eq0) {
+        console.log(`Fizz`);
+        return;
+      } else if (remainderOf5Eq0) {
+        console.log(`Buzz`);
+        return;
       }
-    }
-
-    return function greetStudent(greeting: string) {
-      return `${greeting} ${students[studentId].name}!`
-    }
-  }
-
-  const studentsToGreet = [
-    lookupStudents(1),
-    lookupStudents(2)
-  ];
-
-  console.log(studentsToGreet[0].name, studentsToGreet[0]('Hi'));
-  console.log(studentsToGreet[1].name, studentsToGreet[1]('Hi, how are you doing'));
+      console.log(index);
+    });
+  })();
 })();

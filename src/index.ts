@@ -1,21 +1,18 @@
 (function main() {
-  (function fizzBuzz() {
-    new Array(101).fill(true).forEach((_, index) => {
-      if (index == 0) return;
-      const remainderOf3Eq0 = index % 3 == 0;
-      const remainderOf5Eq0 = index % 5 == 0;
+  const prom = new Promise((resolve, reject) => {
+    console.log('1');
+    setTimeout(() => {
+      console.log('2');
+      resolve('3');
+      console.log('4');
+    }, 0);
 
-      if (remainderOf3Eq0 && remainderOf5Eq0) {
-        console.log(`FizzBuzz`);
-        return;
-      } else if (remainderOf3Eq0) {
-        console.log(`Fizz`);
-        return;
-      } else if (remainderOf5Eq0) {
-        console.log(`Buzz`);
-        return;
-      }
-      console.log(index);
-    });
-  })();
+    console.log('5');
+  });
+
+  prom.then((res) => {
+    console.log(res);
+  });
+
+  console.log('6');
 })();

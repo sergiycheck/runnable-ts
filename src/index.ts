@@ -1,18 +1,45 @@
-(function main() {
-  const prom = new Promise((resolve, reject) => {
-    console.log('1');
-    setTimeout(() => {
-      console.log('2');
-      resolve('3');
-      console.log('4');
-    }, 0);
+export const notSortedArr = [
+  15, 8, 5, 12, 10, 1, 16, 9, 11, 7, 20, 3, 2, 6, 17, 18, 4, 13, 14, 19,
+];
 
-    console.log('5');
-  });
+export const quickSort = (arrArg: number[]) => {
+  const arr = arrArg.slice();
 
-  prom.then((res) => {
-    console.log(res);
-  });
+  if (arr.length <= 1) {
+    return arr;
+  }
 
-  console.log('6');
-})();
+  const pivot = arr.shift();
+
+  //left arr
+  //center arr
+  //right arr
+
+  const leftArr = [];
+  const rightArr = [];
+  const centerArr = [pivot];
+
+  // Split all array elements between left, right and center arrays.
+  while (arr.length) {
+    const elToCompare = arr.shift();
+
+    if (elToCompare == pivot) {
+      centerArr.push(elToCompare);
+    } else if (elToCompare < pivot) {
+      leftArr.push(elToCompare);
+    } else {
+      rightArr.push(elToCompare);
+    }
+  }
+
+  //call quickSort for left arr
+  const sortedLeft = quickSort(leftArr);
+  //call quickSort for right arr
+  const sortedRight = quickSort(rightArr);
+
+  return sortedLeft.concat(centerArr, sortedRight);
+};
+
+const sortedArr = quickSort(notSortedArr);
+
+console.log(sortedArr);

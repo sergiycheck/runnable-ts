@@ -1,45 +1,38 @@
-export const notSortedArr = [
-  15, 8, 5, 12, 10, 1, 16, 9, 11, 7, 20, 3, 2, 6, 17, 18, 4, 13, 14, 19,
-];
+function lengthOfLongestSubstring(s: string): number {
+  if (!s) return 0;
 
-export const quickSort = (arrArg: number[]) => {
-  const arr = arrArg.slice();
+  if (s.length == 1) return 1;
 
-  if (arr.length <= 1) {
-    return arr;
-  }
+  const set = new Set();
 
-  const pivot = arr.shift();
+  let maxLength = 0;
+  let left = 0;
 
-  //left arr
-  //center arr
-  //right arr
+  for (let right = 0; right < s.length; right++) {
+    let elRight = s[right];
+    let elLeft = s[left];
 
-  const leftArr = [];
-  const rightArr = [];
-  const centerArr = [pivot];
+    if (!set.has(elRight)) {
+      set.add(elRight);
 
-  // Split all array elements between left, right and center arrays.
-  while (arr.length) {
-    const elToCompare = arr.shift();
-
-    if (elToCompare == pivot) {
-      centerArr.push(elToCompare);
-    } else if (elToCompare < pivot) {
-      leftArr.push(elToCompare);
+      /**  ?? dont understant*/
+      maxLength = Math.max(maxLength, right - left + 1);
     } else {
-      rightArr.push(elToCompare);
+      while (elLeft !== elRight) {
+        set.delete(elLeft);
+        left++;
+        elLeft = s[left];
+      }
+      set.delete(elLeft);
+      left++;
+
+      set.add(elRight);
     }
   }
 
-  //call quickSort for left arr
-  const sortedLeft = quickSort(leftArr);
-  //call quickSort for right arr
-  const sortedRight = quickSort(rightArr);
+  return maxLength;
+}
 
-  return sortedLeft.concat(centerArr, sortedRight);
-};
-
-const sortedArr = quickSort(notSortedArr);
-
-console.log(sortedArr);
+console.log(lengthOfLongestSubstring('abcabcbb'));
+console.log(lengthOfLongestSubstring('bbbbb'));
+console.log(lengthOfLongestSubstring('pwwkew'));

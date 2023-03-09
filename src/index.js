@@ -1,4 +1,5 @@
-console.log(10 == [10]);
-console.log(10 == [[[[[[[10]]]]]]]);
-// true
-// true
+console.log([1, 2] + [3, 4]);
+
+//So it converts arrays into strings and concatenates them.
+
+console.log([1, 2].toString());

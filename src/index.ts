@@ -1,7 +1,6 @@
-// circular reference
-
-const a = {};
-const b = a as any;
-b.a = a;
-
-console.log(JSON.stringify(b));
+var y = 1 as any;
+if (function f() {}) {
+  // @ts-ignore
+  y += typeof f;
+}
+console.log(y);

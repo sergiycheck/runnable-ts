@@ -1,6 +1,4 @@
-console.log(1 < 2 < 3);
-//true < 3
+console.log(10 == [10]);
+console.log(10 == [[[[[[[10]]]]]]]);
 // true
-console.log(3 > 2 > 1);
-// true > 1
-// false
+// true

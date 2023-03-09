@@ -1,27 +1,8 @@
-function delay() {
-  return new Promise((resolve) => setTimeout(resolve, 2000));
-}
+const sym1 = Symbol('one');
+const sym2 = Symbol('one');
 
-async function delayedLog(item) {
-  await delay();
-  console.log(item);
-}
+const sym3 = Symbol.for('two');
+const sym4 = Symbol.for('two');
 
-async function process(array) {
-  array.forEach(async (item) => {
-    await delayedLog(item);
-  });
-
-  // for (let item in array) {
-  //   await delayedLog(item);
-  // }
-
-  console.log('Process completed!');
-}
-process([1, 2, 3, 5]);
-
-let end = Date.now();
-
-///Process completed!
-/// wait for 2000ms
-//1, 2, 3, 5
+console.log(sym1 === sym2, sym3 === sym4);
+///false, true

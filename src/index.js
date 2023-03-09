@@ -1,9 +1,7 @@
-const numbers = new Set([1, 1, 2, 3, 4]);
-console.log(numbers);
+let numbers = [1, 2, 3, 4, NaN];
 
-const browser = new Set('Firefox');
-console.log(browser);
+console.log(numbers.indexOf(NaN));
 
-//1: {1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}
-// set object is a collection of unique values, it won't duplicate values in the
-// collection. At the same time it is case sensitive data structure.
+console.log(numbers.findIndex(Number.isNaN)); // 4
+
+console.log(numbers.includes(NaN));

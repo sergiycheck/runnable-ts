@@ -1,5 +1,9 @@
-console.log([1, 2] + [3, 4]);
+const numbers = new Set([1, 1, 2, 3, 4]);
+console.log(numbers);
 
-//So it converts arrays into strings and concatenates them.
+const browser = new Set('Firefox');
+console.log(browser);
 
-console.log([1, 2].toString());
+//1: {1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}
+// set object is a collection of unique values, it won't duplicate values in the
+// collection. At the same time it is case sensitive data structure.

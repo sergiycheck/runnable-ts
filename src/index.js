@@ -1,9 +1,5 @@
-var y = 1;
-var y1 = 1;
-const f1 = function f() {};
-if (f1) {
-  y += typeof f;
-  y1 += typeof f1;
-}
-console.log(y);
-console.log(y1);
+var myChars = ['a', 'b', 'c', 'd'];
+delete myChars[0];
+console.log(myChars); // [<1 empty item>, "b", ...]
+console.log(myChars[0]); // undefined
+console.log(myChars.length); // 4

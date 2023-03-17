@@ -1,12 +1,4 @@
-console.log(
-  JSON.stringify({ myArray: ['one', undefined, function () {}, Symbol('')] })
-);
-// myArray: ['one', null, null, null]
+const { a: x = 10, b: y = 20 } = { a: 30 };
 
-console.log(
-  JSON.stringify({ [Symbol.for('one')]: 'one' }, [Symbol.for('one')])
-);
-// {} ????
-//the undefined, functions, and symbols are not valid JSON values. These values are  either omitted
-// in an object or changed to null in array.
-// all synbol keys properties will be completely ignored hence it returns as empty object {}
+console.log(x);
+console.log(y);

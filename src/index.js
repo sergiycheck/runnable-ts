@@ -1,23 +1,12 @@
-let myNumber = 100;
-let myString = '100';
+console.log(
+  JSON.stringify({ myArray: ['one', undefined, function () {}, Symbol('')] })
+);
+// myArray: ['one', null, null, null]
 
-const exp1 = !typeof myNumber; // false
-const exp2 = !typeof myString; // false
-
-console.log(exp1);
-console.log(exp2);
-
-if (exp1 === 'string') {
-  console.log('It is not a string!');
-} else {
-  console.log('It is a string!');
-}
-
-if (exp2 === 'number') {
-  console.log('It is not a number!');
-} else {
-  console.log('It is a number!');
-}
-
-//  console.log('It is a string!');
-//    console.log('It is a number!');
+console.log(
+  JSON.stringify({ [Symbol.for('one')]: 'one' }, [Symbol.for('one')])
+);
+// {} ????
+//the undefined, functions, and symbols are not valid JSON values. These values are  either omitted
+// in an object or changed to null in array.
+// all synbol keys properties will be completely ignored hence it returns as empty object {}

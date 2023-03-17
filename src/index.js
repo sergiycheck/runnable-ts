@@ -1,8 +1,23 @@
-const sym1 = Symbol('one');
-const sym2 = Symbol('one');
+let myNumber = 100;
+let myString = '100';
 
-const sym3 = Symbol.for('two');
-const sym4 = Symbol.for('two');
+const exp1 = !typeof myNumber; // false
+const exp2 = !typeof myString; // false
 
-console.log(sym1 === sym2, sym3 === sym4);
-//false, true
+console.log(exp1);
+console.log(exp2);
+
+if (exp1 === 'string') {
+  console.log('It is not a string!');
+} else {
+  console.log('It is a string!');
+}
+
+if (exp2 === 'number') {
+  console.log('It is not a number!');
+} else {
+  console.log('It is a number!');
+}
+
+//  console.log('It is a string!');
+//    console.log('It is a number!');

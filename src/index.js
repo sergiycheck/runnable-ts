@@ -1,4 +1,8 @@
-const { a: x = 10, b: y = 20 } = { a: 30 };
+var x = 2;
 
-console.log(x);
-console.log(y);
+function log() {
+  console.log(x);
+  var x = 1;
+}
+
+log();

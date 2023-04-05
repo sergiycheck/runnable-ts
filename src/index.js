@@ -5,22 +5,30 @@
 
 // // 2 TDZ
 
-// askQuestion();
-// // ReferenceError
+// try {
+//   askQuestion();
+//   // ReferenceError
 
-// let studentName = 'Suzy';
+//   let studentName = 'Suzy';
 
-// function askQuestion() {
-//   console.log(`${studentName}, do you know?`);
+//   function askQuestion() {
+//     console.log(`${studentName}, do you know?`);
+//   }
+// } catch (error) {
+//   console.error(error);
 // }
 
 // // 3 circular reference
 
-// const a = {};
-// const b = a;
-// b.a = a;
+// try {
+//   const a = {};
+//   const b = a;
+//   b.a = a;
 
-// console.log(JSON.stringify(b));
+//   console.log(JSON.stringify(b));
+// } catch (error) {
+//   console.error(error);
+// }
 
 // //4 demonstration of this
 

@@ -1,51 +1,50 @@
-//3
-// function MyArray() {}
-// MyArray.prototype = [];
+// 1 returnings of comparisons
+// console.log(1 && 2 && false);
+// console.log((1 && 2) || false);
 
-// let arr = new MyArray();
-// arr.push(1, 2, 3);
-// console.log(arr.length);
+// 2 TDZ
 
-// //4
-// function F() {
-//   return F;
+// askQuestion();
+// // ReferenceError
+
+// let studentName = 'Suzy';
+
+// function askQuestion() {
+//   console.log(`${studentName}, do you know?`);
 // }
 
-// console.log(new F() instanceof F);
-// console.log(new F() instanceof Function);
+// 3 circular reference
 
-//8
-// f.call(null);
+// const a = {};
+// const b = a;
+// b.a = a;
 
-// function f() {
-//   console.log(this);
-// }
+// console.log(JSON.stringify(b));
 
-//12
-// 'use strict';
+//4 demonstration of this
+// const obj = {
+//   innerArrow: () => {
+//     return this;
+//   },
+//   innerMethod: function () {
+//     return this;
+//   },
 
-// a = null + undefined;
-// alert(a);
+//   aOuter: function () {
+//     const innerA = () => {
+//       return this;
+//     };
 
-//13
-// let a = 1;
-// let b = {
-//   toString() {
-//     return '1';
+//     return innerA;
 //   },
 // };
-// let c = 1;
 
-// console.log(a + b + c);
+// console.log('obj.innerArrow()', obj.innerArrow());
+// console.log('obj.innerMethod()', obj.innerMethod());
 
-//14
-// f.call(f);
+// const resultWithBoundObj = obj.aOuter();
+// const passedAOuter = obj.aOuter;
+// const resultWithGlobalThis = passedAOuter();
 
-// function f() {
-//   console.log(this);
-// }
-
-//16
-// NaN
-// let a = X;
-// alert( a == X ); // false
+// console.log('resultWithBoundObj', resultWithBoundObj());
+// console.log('resultWithGlobalThis ', resultWithGlobalThis());

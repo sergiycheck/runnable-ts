@@ -1,60 +1,19 @@
-//1 returnings of comparisons
+let ingredients_list = ['noodles', { list: ['eggs', 'flour', 'water'] }];
 
-console.log(1 && 2 && false);
-console.log((1 && 2) || false);
+let ingredients_list_copy = Array.from(ingredients_list);
 
-// 2 TDZ
+console.log('ingredients_list ', ingredients_list);
 
-try {
-  askQuestion();
-  // ReferenceError
+ingredients_list_copy[1].list = ['rice flour', 'water'];
 
-  let studentName = 'Suzy';
+console.log('ingredients_list[1].list ', ingredients_list[1].list);
 
-  function askQuestion() {
-    console.log(`${studentName}, do you know?`);
-  }
-} catch (error) {
-  console.error(error);
-}
+console.log('ingredients_list ', ingredients_list);
 
-// 3 circular reference
+ingredients_list_copy[0] = 'rice noodles';
 
-try {
-  const a = {};
-  const b = a;
-  b.a = a;
+console.log('ingredients_list[0] ', ingredients_list[0]);
 
-  console.log(JSON.stringify(b));
-} catch (error) {
-  console.error(error);
-}
+console.log('ingredients_list_copy ', ingredients_list_copy);
 
-//4 demonstration of this
-
-const obj = {
-  innerArrow: () => {
-    return this;
-  },
-  innerMethod: function () {
-    return this;
-  },
-
-  aOuter: function () {
-    const innerA = () => {
-      return this;
-    };
-
-    return innerA;
-  },
-};
-
-console.log('obj.innerArrow()', obj.innerArrow());
-console.log('obj.innerMethod()', obj.innerMethod());
-
-const resultWithBoundObj = obj.aOuter();
-const passedAOuter = obj.aOuter;
-const resultWithGlobalThis = passedAOuter();
-
-console.log('resultWithBoundObj', resultWithBoundObj());
-console.log('resultWithGlobalThis ', resultWithGlobalThis());
+console.log(' ingredients_list ', ingredients_list);

@@ -7,6 +7,14 @@
       "runtimeExecutable": "yarn",
       "runtimeArgs": ["run", "exec"],
       "console": "integratedTerminal"
+    },
+    {
+      "name": "Launch index.js",
+      "request": "launch",
+      "type": "node",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["run", "exec-node"],
+      "console": "integratedTerminal"
     }
   ]
 }

@@ -16,6 +16,7 @@ const obj = {
 };
 
 console.log('obj.innerArrow()', obj.innerArrow());
+
 console.log('obj.innerMethod()', obj.innerMethod());
 
 const resultWithBoundObj = obj.aOuter();
@@ -23,4 +24,5 @@ const passedAOuter = obj.aOuter;
 const resultWithGlobalThis = passedAOuter();
 
 console.log('resultWithBoundObj', resultWithBoundObj());
+
 console.log('resultWithGlobalThis ', resultWithGlobalThis());

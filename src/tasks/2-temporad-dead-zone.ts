@@ -1,19 +1,18 @@
-try {
-  askQuestion();
-  // ReferenceError
+// try {
+//   askQuestion();
+//   // ReferenceError
 
-  let studentName = 'Suzy';
+//   let studentName = 'Suzy';
 
-  function askQuestion() {
-    console.log(`${studentName}, do you know?`);
-  }
-} catch (error) {
-  console.error(error);
-}
+//   function askQuestion() {
+//     console.log(`${studentName}, do you know?`);
+//   }
+// } catch (error) {
+//   console.error(error);
+// }
 
 try {
   askQuestionVar();
-  // ReferenceError
 
   var studentName = 'Suzy';
 

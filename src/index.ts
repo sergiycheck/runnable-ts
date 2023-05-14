@@ -1,17 +1,13 @@
-import { readFileSync, createReadStream } from 'node:fs';
+import { readFileSync, createReadStream } from 'fs';
 
-// const fileName = 'package.json'
-const fileName = '5mb.txt';
+let pathToFile = 'image-text.txt';
 
-// console.log(readFileSync(fileName).toString('utf-8'));
+console.log(readFileSync(pathToFile).toString('utf-8'));
 
-// const readStream = createReadStream(fileName);
+const rs = createReadStream(pathToFile);
+rs.setEncoding('utf-8');
 
-// let allChunks = [];
-// readStream.on('data', (chunk) => {
-//   console.log('chunk', chunk);
-//   console.log(Buffer.byteLength(chunk));
-//   allChunks.push(chunk);
-// });
-
-// readStream.on('close', () => console.log('end'));
+rs.on('data', (chunk) => {
+  console.log(chunk);
+  console.log(Buffer.byteLength(chunk));
+});

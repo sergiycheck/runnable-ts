@@ -1,15 +1,15 @@
 {
   "name": "runnable-ts-node",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "exec": "tsx ./src/index.ts",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register './**/*.test.ts' ",
-    "exec": "ts-node --swc ./src/index.ts",
     "start-swc": "swc ./src/index.ts -w -d dist",
     "start-nodemon": "nodemon ./src/index.ts",
     "start-tsx": "tsx watch ./src/index.ts",
-    "exec-tsx": "tsx ./src/index.ts",
     "exec-node": "node src/index.js"
   },
   "dependencies": {

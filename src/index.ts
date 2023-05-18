@@ -37,4 +37,5 @@ async function createFolderAndFiles(
 }
 
 const data = await readAndGet(pathToFile);
+
 createFolderAndFiles(pathToClones, 'naruto-clone', 100, data);

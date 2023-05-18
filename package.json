@@ -10,6 +10,7 @@
     "start-swc": "swc ./src/index.ts -w -d dist",
     "start-nodemon": "nodemon ./src/index.ts",
     "start-tsx": "tsx watch ./src/index.ts",
+    "exec-ts-node": "ts-node-esm ./src/index.ts",
     "exec-node": "node src/index.js"
   },
   "dependencies": {

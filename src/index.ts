@@ -1,14 +1,13 @@
 import assert from 'assert';
 import { Readable } from 'stream';
 
-async function readableToString2(readable) {
-  let result = '';
-  for await (const chunk of readable) {
-    result += chunk;
-  }
-  return result;
+async function* generate() {
+  yield 'hello';
+  yield 'streams';
 }
 
-const readable = Readable.from('Good morning!', { encoding: 'utf8' });
+const readable = Readable.from(generate());
 
-assert.equal(await readableToString2(readable), 'Good morning!');
+readable.on('data', (chunk) => {
+  console.log(chunk);
+});

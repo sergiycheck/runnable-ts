@@ -3,18 +3,11 @@ import { Readable } from 'stream';
 
 import fs from 'fs';
 
-var data = '';
+var readableStream = fs.createReadStream('text.txt');
+var writableStream = fs.createWriteStream('file2.txt');
 
-var readableStream = fs.createReadStream('file.txt');
-var data = '';
-var chunk;
+readableStream.setEncoding('utf8');
 
-readableStream.on('readable', function () {
-  while ((chunk = readableStream.read()) != null) {
-    data += chunk;
-  }
-});
-
-readableStream.on('end', function () {
-  console.log(data);
+readableStream.on('data', function (chunk) {
+  writableStream.write(chunk);
 });

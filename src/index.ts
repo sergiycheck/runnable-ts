@@ -5,21 +5,16 @@ import fs from 'fs';
 
 var data = '';
 
-var readerStream = fs.createReadStream('text.txt'); //Create a readable stream
+var readableStream = fs.createReadStream('file.txt');
+var data = '';
+var chunk;
 
-readerStream.setEncoding('utf-8'); // Set the encoding to be utf8.
-
-// Handle stream events --> data, end, and error
-readerStream.on('data', function (chunk) {
-  data += chunk;
+readableStream.on('readable', function () {
+  while ((chunk = readableStream.read()) != null) {
+    data += chunk;
+  }
 });
 
-readerStream.on('end', function () {
+readableStream.on('end', function () {
   console.log(data);
 });
-
-readerStream.on('error', function (err) {
-  console.log(err.stack);
-});
-
-console.log('Program Ended');

@@ -1,12 +1,14 @@
-import fs from 'node:fs';
-import { ReadStream } from 'fs';
+import assert from 'assert';
+import { Readable } from 'stream';
 
-async function logChunks(readable: ReadStream) {
+async function readableToString2(readable) {
+  let result = '';
   for await (const chunk of readable) {
-    console.log(chunk);
+    result += chunk;
   }
+  return result;
 }
 
-const readable = fs.createReadStream('text.txt', { encoding: 'utf8' });
+const readable = Readable.from('Good morning!', { encoding: 'utf8' });
 
-logChunks(readable);
+assert.equal(await readableToString2(readable), 'Good morning!');

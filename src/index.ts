@@ -2,9 +2,7 @@ function getIncrementAndMessage() {
   let counter = 0;
   const increment = () => counter++;
 
-  let message = `counter is ${counter}`;
-
-  const getMessage = () => message;
+  const getMessage = () => `counter is ${counter}`;
 
   return [increment, getMessage];
 }

@@ -1,5 +1,3 @@
-console.log('execution');
-
 export function undoRedo(object) {
   let prev = [];
   let next = [];
@@ -29,7 +27,7 @@ export function undoRedo(object) {
     },
     undo: function () {
       const [key, value] = prev.pop();
-      next.push([key, object[key]]); // why ?
+      next.push([key, object[key]]);
       if (value) {
         object[key] = value;
       } else {
@@ -39,7 +37,7 @@ export function undoRedo(object) {
     },
     redo: function () {
       const [key, value] = next.pop();
-      prev.push([key, object[key]]); // why ?
+      prev.push([key, object[key]]);
       if (value) {
         object[key] = value;
       } else {

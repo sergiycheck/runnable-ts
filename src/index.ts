@@ -1,14 +1,16 @@
-function getIncrementAndMessage() {
-  let counter = 0;
-  const increment = () => counter++;
-
-  const getMessage = () => `counter is ${counter}`;
-
-  return [increment, getMessage];
+function g() {
+  let c = 0;
+  const i = () => c++;
+  const m = `c ${c}`;
+  const gm = () => {
+    return m;
+  };
+  return { i, gm };
 }
 
-const [increment, getMessage] = getIncrementAndMessage();
+const { i, gm } = g();
 
-increment();
-increment();
-console.log(getMessage());
+i();
+i();
+
+console.log(gm());

@@ -1,8 +1,10 @@
 function g() {
   let c = 0;
+
   const i = () => c++;
-  const m = `c ${c}`;
+
   const gm = () => {
+    const m = `c ${c}`;
     return m;
   };
   return { i, gm };
@@ -10,7 +12,6 @@ function g() {
 
 const { i, gm } = g();
 
-i();
 i();
 
 console.log(gm());

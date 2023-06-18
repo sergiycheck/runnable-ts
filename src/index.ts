@@ -1,17 +1,14 @@
-function g() {
-  let c = 0;
+function whatsTheDealHere(id, defaultID = () => id) {
+  var id;
 
-  const i = () => c++;
+  console.log(`local variable 'id': ${id}`);
+  console.log(`parameter 'id' (closure): ${defaultID()}`);
 
-  const gm = () => {
-    const m = `c ${c}`;
-    return m;
-  };
-  return { i, gm };
+  console.log("reassigning 'id' to 5");
+  id = 5;
+
+  console.log(`local variable 'id': ${id}`);
+  console.log(`parameter 'id' (closure): ${defaultID()}`);
 }
 
-const { i, gm } = g();
-
-i();
-
-console.log(gm());
+whatsTheDealHere(3);

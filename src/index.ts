@@ -1,30 +1,32 @@
-function commitAction() {
-  do {
-    const commit = () => {
-      return Math.random() > 0.5
-        ? { code: Math.random() }
-        : { code: undefined };
-    };
-    let result = commit();
-    var done = result && result.code == 1;
-  } while (!done);
+import assert from 'node:assert/strict';
+
+void (function main() {
+  const fallBackUser = { name: 'Guest2' };
+  const user = getUser() || fallBackUser;
+  const { name } = user;
+  console.log(name);
+})();
+
+// void (function main() {
+//   const fallBackName = 'Guest1';
+//   try {
+//     var user = getUser();
+//     assert.ok(user, 'User is null or undefined');
+//     var { name } = user as any;
+//   } catch (error) {
+//     name = fallBackName;
+//     console.error(error);
+//   }
+
+//   console.log(name);
+// })();
+
+function getUser(): any {
+  // return {name: 'John'};
+  // return 0;
+  return undefined;
 }
 
-function getStudents() {
-  cache = {};
-
-  try {
-    // not really a block scope
-    var records = fromCache('students');
-  } catch (err) {
-    // oops, fall back to a default
-    var records: any = [];
-  }
-  return records;
-
-  // ..
-  var cache;
-  function fromCache(name: string) {
-    if (name in cache) return cache[name];
-  }
+function getRandomInt(min: number, max: number) {
+  return Math.floor(Math.random() * (max - min)) + min;
 }

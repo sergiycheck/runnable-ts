@@ -1,32 +1,61 @@
-import assert from 'node:assert/strict';
+const newLine1 = '\\';
+const newLine2 = 'n';
 
-void (function main() {
-  const fallBackUser = { name: 'Guest2' };
-  const user = getUser() || fallBackUser;
-  const { name } = user;
-  console.log(name);
-})();
+const whiteSpace = ' ';
+function solution(input, markers) {
+  let strippedString = '';
 
-// void (function main() {
-//   const fallBackName = 'Guest1';
-//   try {
-//     var user = getUser();
-//     assert.ok(user, 'User is null or undefined');
-//     var { name } = user as any;
-//   } catch (error) {
-//     name = fallBackName;
-//     console.error(error);
-//   }
+  let isWhiteSpace = false;
+  let indexOfWhiteSpaceStart = undefined;
 
-//   console.log(name);
-// })();
+  let toStripLine = false;
+  let stripLineFromIndex = undefined;
 
-function getUser(): any {
-  // return {name: 'John'};
-  // return 0;
-  return undefined;
+  for (let i = 0; i < input.length; i++) {
+    if (input[i] == whiteSpace && !toStripLine) {
+      isWhiteSpace = true;
+      indexOfWhiteSpaceStart = i;
+      continue;
+    }
+
+    if (markers.includes(input[i])) {
+      toStripLine = true;
+      stripLineFromIndex = i;
+
+      if (isWhiteSpace) {
+        input = input
+          .split('')
+          .splice(
+            indexOfWhiteSpaceStart,
+            stripLineFromIndex - indexOfWhiteSpaceStart
+          )
+          .join('');
+      }
+      continue;
+    }
+
+    if (toStripLine && input[i] == newLine1 && input[i + 1] == newLine2) {
+      input = input
+        .split('')
+        .splice(stripLineFromIndex, i - stripLineFromIndex)
+        .join('');
+      continue;
+    }
+
+    strippedString = strippedString.concat(input[i]);
+
+    isWhiteSpace = false;
+    indexOfWhiteSpaceStart = undefined;
+
+    toStripLine = false;
+    stripLineFromIndex = undefined;
+  }
+
+  return strippedString;
 }
 
-function getRandomInt(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
+const parsed = solution(
+  'apples, plums % and bananas\npears\noranges !applesauce',
+  ['%', '!']
+);
+console.log(parsed);

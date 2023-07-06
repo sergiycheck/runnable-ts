@@ -5,27 +5,19 @@ export function success(next) {
   return { success: true, next: next };
 }
 
-export function world(tokens, i) {
-  if (i >= tokens.length) return $.failure();
-  else if (tokens[i] == 'world') return $.success(i + 1);
-  else return $.failure();
-}
-
-export function hello(tokens, i) {
-  if (i >= tokens.length) {
-    return failure();
-  } else if (tokens[i] == 'hello') {
-    return success(i + 1);
-  } else {
-    return failure();
-  }
+export function tokenMatcherBuilder(word) {
+  return (tokens, i) => {
+    if (i >= tokens.length) return $.failure();
+    else if (tokens[i] == word) return $.success(i + 1);
+    else return $.failure();
+  };
 }
 
 const $ = {
   failure: failure,
   success: success,
-  world: world,
-  hello: hello,
+  world: tokenMatcherBuilder('world'),
+  hello: tokenMatcherBuilder('hello'),
 };
 
 export function helloWorld(tokens: string[], positionOfTheFirstToken: number) {

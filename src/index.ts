@@ -13,23 +13,31 @@ export function tokenMatcherBuilder(word) {
   };
 }
 
+export function sequence(...parsers) {
+  return (tokens, i) => {
+    for (const parser of parsers) {
+      const result = parser(tokens, i);
+
+      if (!result.success) return $.failure();
+
+      i = result.next;
+    }
+
+    return $.success(i);
+  };
+}
+
+export const helloWorld = sequence(
+  tokenMatcherBuilder('hello'),
+  tokenMatcherBuilder('world')
+);
+
 const $ = {
   failure: failure,
   success: success,
   world: tokenMatcherBuilder('world'),
   hello: tokenMatcherBuilder('hello'),
 };
-
-export function helloWorld(tokens: string[], positionOfTheFirstToken: number) {
-  let result = $.hello(tokens, positionOfTheFirstToken) as {
-    success: boolean;
-    next: number;
-  };
-
-  if (!result.success) return $.failure();
-
-  return $.world(tokens, result.next);
-}
 
 console.log(helloWorld(['hello', 'world'], 0));
 console.log(helloWorld(['hello', 'notworld'], 0));

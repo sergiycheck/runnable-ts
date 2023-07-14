@@ -22,7 +22,11 @@ function defaultArguments(addFunction, params) {
   console.log('initialAdd after', initialAdd);
   console.log('addFunction after', addFunction);
 
-  const functionString = addFunction.toString();
+  const functionString = addFunction
+    .toString()
+    .replace(/\/\*[\s\S]*?\*\/|(?<=[^:])\/\/.*|^\/\/.*/g, '')
+    .replace('\n', '')
+    .replace(/\s+/g, '');
 
   console.log('functionString', functionString);
 
@@ -51,13 +55,10 @@ function defaultArguments(addFunction, params) {
     for (let i = 0; i < addFunction.length; i++) {
       if (!args.length && !argumentsOfFunction.length) break;
 
-      // const validArg =
-      //   args[i] ?? correctDefaultParamsObj[`${argumentsOfFunction[i]}`];
-
       const validArg = args[i]
         ? args[i]
-        : args[0] == undefined
-        ? args[i]
+        : args[0] == undefined && args.length == 1
+        ? args[0]
         : correctDefaultParamsObj[`${argumentsOfFunction[i]}`];
 
       if (validArg) {
@@ -135,3 +136,27 @@ let returnId_ = defaultArguments(returnId, { _id: 'test' });
 
 result = returnId_(undefined);
 console.log('result ', result, 'should be ', undefined);
+
+function addComments(
+  a, // comments
+  b /* more comments */
+) {
+  return a + b;
+}
+let addCommentsAdd_ = defaultArguments(addComments, { b: 9 });
+result = addCommentsAdd_(10);
+console.log('result ', result, 'should be ', 19);
+
+
+function addComments2( a, 
+  b  ) { return a+b; }
+
+let addComments2Add_ = defaultArguments(addComments2, { b: 9 });
+result = addComments2Add_(10);
+console.log('result ', result, 'should be ', 19);
+
+
+function addComments3( a,                       b  ) { return a+b; }
+let addComments3Add_ = defaultArguments(addComments3, { b: 9 });
+result = addComments3Add_(10);
+console.log('result ', result, 'should be ', 19);

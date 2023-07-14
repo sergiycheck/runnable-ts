@@ -1,67 +1,137 @@
-export function failure() {
-  return { success: false };
-}
+// TODO:
+// continue solving
+// https://www.codewars.com/kata/52605419be184942d400003d/train/javascript
 
-export function success(next) {
-  return { success: true, next: next };
-}
+let initialAdd = undefined;
+function defaultArguments(addFunction, params) {
+  console.log('initialAdd before', initialAdd);
+  console.log('addFunction before', addFunction);
+  console.log('innerAdd', innerAdd);
 
-export function tokenMatcherBuilder(word) {
-  return (tokens, i) => {
-    if (i >= tokens.length) return failure();
-    else if (tokens[i] == word) return success(i + 1);
-    else return failure();
-  };
-}
+  if (!initialAdd) {
+    initialAdd = addFunction;
+  } else if (
+    initialAdd.toString() !== addFunction.toString() &&
+    addFunction.toString() !== innerAdd.toString()
+  ) {
+    initialAdd = addFunction;
+  } else {
+    addFunction = initialAdd;
+  }
 
-export function sequence(...parsers) {
-  return (tokens, i) => {
-    for (const parser of parsers) {
-      const result = parser(tokens, i);
+  console.log('initialAdd after', initialAdd);
+  console.log('addFunction after', addFunction);
 
-      if (!result.success) return failure();
+  const functionString = addFunction.toString();
 
-      i = result.next;
+  console.log('functionString', functionString);
+
+  const argumentsOfFunction = functionString
+    .slice(functionString.indexOf('(') + 1, functionString.indexOf(')'))
+    .split(',');
+
+  function innerAdd(...args) {
+    console.log('params', params);
+    console.log('args', ...args);
+    console.log('argumentsOfFunction', argumentsOfFunction);
+
+    const correctDefaultParamsObj = argumentsOfFunction.reduce(
+      (prev, current) => {
+        if (params[current]) {
+          prev[current] = params[current];
+        }
+        return prev;
+      },
+      {}
+    );
+
+    console.log('correctDefaultParamsObj', correctDefaultParamsObj);
+
+    const validArgs = [];
+    for (let i = 0; i < addFunction.length; i++) {
+      if (!args.length && !argumentsOfFunction.length) break;
+
+      // const validArg =
+      //   args[i] ?? correctDefaultParamsObj[`${argumentsOfFunction[i]}`];
+
+      const validArg = args[i]
+        ? args[i]
+        : args[0] == undefined
+        ? args[i]
+        : correctDefaultParamsObj[`${argumentsOfFunction[i]}`];
+
+      if (validArg) {
+        validArgs.push(validArg);
+      }
     }
 
-    return success(i);
-  };
+    console.log('validArgs', validArgs);
+
+    const result = addFunction(...validArgs);
+
+    return result;
+  }
+
+  return innerAdd;
 }
 
-export function anyOf(...parsers) {
-  return (tokens, i) => {
-    for (const parser of parsers) {
-      const result = parser(tokens, i);
-
-      if (result.success) return result;
-    }
-
-    return failure();
-  };
+function add(a, b) {
+  return a + b;
 }
 
-export function optional(parser) {
-  return (tokens, i) => {
-    const result = parser(tokens, i);
-    if (result.success) return result;
-    return success(i);
-  };
+let add_;
+
+add_ = defaultArguments(add, { b: 9 });
+
+let result = add_(10); // returns 19
+console.log('result ', result, 'should be ', 19);
+
+result = add_(10, 7); // returns 17
+console.log('result ', result, 'should be ', 17);
+
+result = add_(); // returns NaN
+console.log('result ', result, 'should be ', NaN);
+
+add_ = defaultArguments(add_, { b: 3, a: 2 });
+
+result = add_(10); // returns 13 now
+console.log('result ', result, 'should be ', 13);
+
+result = add_(); // returns 5
+console.log('result ', result, 'should be ', 5);
+
+add_ = defaultArguments(add_, { c: 3 });
+
+result = add_(10); // returns NaN
+console.log('result ', result, 'should be ', NaN);
+
+result = add_(10, 10); // returns 20
+console.log('result ', result, 'should be ', 20);
+
+function add2(x?, y?) {
+  return x + y;
 }
 
-const helloWorldSequence = sequence(
-  tokenMatcherBuilder('hello'),
-  tokenMatcherBuilder('world')
-);
+let add2_ = defaultArguments(add2, { y: 9 });
 
-const helloOrWorldAnyOf = anyOf(
-  tokenMatcherBuilder('hello'),
-  tokenMatcherBuilder('world')
-);
+result = add2_(10);
+console.log('result ', result, 'should be ', 19);
 
-const book = sequence(
-  optional(tokenMatcherBuilder('the')),
-  tokenMatcherBuilder('book')
-);
+function addMore(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
 
-console.log(book(['book'], 0));
-console.log(book(['the', 'book'], 0));
+var closure_counter = (function accumulator() {
+  var counter = 0;
+  return function (x) {
+    return (counter += x);
+  };
+})();
+
+function returnId(_id) {
+  return _id;
+}
+let returnId_ = defaultArguments(returnId, { _id: 'test' });
+
+result = returnId_(undefined);
+console.log('result ', result, 'should be ', undefined);

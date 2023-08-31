@@ -1,89 +1,58 @@
-const randomInteger = (min: number, max: number) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+// two dimensional array with random numbers
+const arr = [
+  [3, 4, 5],
+  [1, 0, 0],
+  [4, 5, 4],
+  [8, 8, -1],
+];
+
+//3 4 5
+//1 0 0
+//4 5 4
+//8 8 -1
+
+//arr[3][0]
+//arr[2][0]
+
+//rotate the matrix clockwise 90 degrees
+//-1 8 8
+//4 5 4
+//0 0 1
+//5 4 3
+
+// const rotateArrClockwise = (arr: number[][]) => {
+//   return arr.map((a) => a.reverse()).reverse()
+// }
+
+const rotateMatrixClockwise = (arr: number[][]) => {
+  const newArr = [];
+
+  for (let j = 0; j < arr[0].length; j++) {
+    let rowArr = [];
+
+    for (let i = arr.length - 1; i >= 0; i--) {
+      rowArr.push(arr[i][j]);
+    }
+
+    newArr.push(rowArr);
+    rowArr = [];
+  }
+
+  return newArr;
 };
 
-const randomArr1 = Array.from({ length: 10_000 }, () =>
-  randomInteger(1, 10_000)
-);
-const randomArr2 = Array.from({ length: 10_000 }, () =>
-  randomInteger(1, 10_000)
-);
+const rotateMatrixClockwiseOnSomeDegrees = (arr: number[][], degrees: 45 | 90 | 135 | 180 | 360) => {
+  const numberOfRotates = degrees / 45;
 
-function ArrayDiffOriginal(a, b) {
-  return a.filter((el) => !b.includes(el));
+  let rotatedMatrix = arr;
+  for(let i = 0; i< numberOfRotates; i++) {
+
+    rotatedMatrix = rotateMatrixClockwise(rotatedMatrix)
+  }
+  return rotatedMatrix;
 }
 
-function arrayDiff(a, b) {
-  console.log('a', a);
-  console.log('b', b);
-
-  if (!a.length) return a;
-
-  const numOccurencesOriginal = a.reduce((prev, curr, index) => {
-    if (curr in prev) {
-      return {
-        ...prev,
-        [curr]: {
-          count: prev[curr].count + 1,
-          indexes: [...prev[curr].indexes, index],
-        },
-      };
-    }
-
-    return {
-      ...prev,
-      [curr]: { count: 1, indexes: [index] },
-    };
-  }, {});
-
-  console.log('numOccurencesOriginal', numOccurencesOriginal);
-
-  const newInstanceOfArr = Object.entries(numOccurencesOriginal).map((el) => [
-    el[0],
-    { ...el[1] },
-  ]);
-
-  const numOccurencesUpdated = Object.fromEntries(newInstanceOfArr);
-
-  for (let el of b) {
-    if (el in numOccurencesUpdated) {
-      numOccurencesUpdated[el].count++;
-    }
-  }
-
-  console.log('numOccurencesUpdated', numOccurencesUpdated);
-
-  const nonUpdatedProperties = Object.entries(numOccurencesOriginal).filter(
-    (originalEl) => {
-      if (
-        numOccurencesOriginal[originalEl[0]].count ===
-        numOccurencesUpdated[originalEl[0]].count
-      )
-        return true;
-      return false;
-    }
-  );
-
-  console.log('non updated properties');
-  console.dir(nonUpdatedProperties, { depth: null });
-
-  const diffArr = [];
-  for (let el of nonUpdatedProperties) {
-    for (let index of el[1].indexes) {
-      diffArr[index] = el[0];
-    }
-  }
-
-  console.log('diffArr', diffArr);
-
-  const filteredDiffArr = diffArr.map(Number).filter((el) => el !== undefined);
-
-  console.log('filteredDiffArr', filteredDiffArr);
-
-  return filteredDiffArr;
-}
+const rotated = rotateMatrixClockwiseOnSomeDegrees(arr, 135);
 
 
-// console.log('diff 1', ArrayDiffOriginal(randomArr1, randomArr2));
-
-console.log('diff 2', arrayDiff(randomArr1, randomArr2));
+console.log(rotated);

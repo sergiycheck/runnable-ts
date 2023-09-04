@@ -1,4 +1,12 @@
 
+const arr = [
+  [3, 4, 5],
+  [1, 0, 0],
+  [4, 5, 4],
+  [8, 8, -1],
+];
+
+
 export const rotateMatrixClockwise = (arr: number[][]) => {
   const newArr = [];
 

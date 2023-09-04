@@ -1,14 +1,4 @@
-import { rotateMatrixTransposeReverse } from "./rotate-matix/chartgpt-solution";
-import { rotateMatrixClockwiseOnSomeDegrees } from "./rotate-matix/custom";
+import { evaluatePolishNotion, polishNotation1, polishNotation2 } from "./tasks-from-linkedin-interview-book/evaluate-reverse-polish-notation";
 
-// two dimensional array with random numbers
-const arr = [
-  [3, 4, 5],
-  [1, 0, 0],
-  [4, 5, 4],
-  [8, 8, -1],
-];
-
-console.log(rotateMatrixTransposeReverse(arr));
-
-console.log(rotateMatrixClockwiseOnSomeDegrees(arr, 90))
+console.log(evaluatePolishNotion(polishNotation1))
+console.log(evaluatePolishNotion(polishNotation2))

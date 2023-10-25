@@ -1,14 +1,33 @@
-import { matrixTranspose, reverseMatrixRows } from "./rotate-matix/chartgpt-solution";
+// function getFibonacciNums(l: number) {
+//   const nums = [0, 1];
+//   for (let i = 2; i < l; i++) {
+//     nums.push(nums[i - 1] + nums[i - 2]);
+//   }
+
+//   return nums;
+// }
+
+// console.log(getFibonacciNums(10));
+
+// console.log('0' == 0 as any)
 
 
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-];
+const arr = [1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5];
 
-const transposedMatrix = matrixTranspose(matrix);
-console.log(transposedMatrix);
+let a = arr.reduce((prev, cur) => {
+  if (cur in prev) {
+    prev[cur]++;
+  } else {
+    prev[cur] = 1;
+  }
+  return prev;
+}, {})
 
-const reversedMatrix = reverseMatrixRows(transposedMatrix);
+let result = Object.entries(a).find((item: any) => {
+  console.log(item);
+  return item[1] % 2 == 1;
+})
 
-console.log(reversedMatrix);
+console.log(+result[0])
+
+

@@ -1,33 +1,44 @@
-// function getFibonacciNums(l: number) {
-//   const nums = [0, 1];
-//   for (let i = 2; i < l; i++) {
-//     nums.push(nums[i - 1] + nums[i - 2]);
-//   }
+// const inputs = ['asdf', 'fdas', 'asds', 'd fm', 'dfaa', 'aaaa', 'aabb', 'aaabb'];
 
-//   return nums;
+// // asds
+// // dfaa
+// // aabb
+// // aaabb
+
+// for(const input of inputs) {
+//   console.log(input, checkIfHasRepeatingChar2Time(input))
 // }
 
-// console.log(getFibonacciNums(10));
 
-// console.log('0' == 0 as any)
-
-
-const arr = [1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5];
-
-let a = arr.reduce((prev, cur) => {
-  if (cur in prev) {
-    prev[cur]++;
-  } else {
-    prev[cur] = 1;
+function checkIfHasRepeatingChar2Time(str) {
+  const charMap = new Map();
+  for (const char of str) {
+    charMap.set(char, (charMap.get(char) || 0) + 1);
   }
-  return prev;
-}, {})
-
-let result = Object.entries(a).find((item: any) => {
-  console.log(item);
-  return item[1] % 2 == 1;
-})
-
-console.log(+result[0])
+  const filteredResult = [...charMap.values()].filter((value) => value === 2);
+  return filteredResult.length > 0;
+}
 
 
+console.log('Enter text (sample asdf) or CMD + C to exit');
+
+process.stdin.setEncoding('utf8');
+
+process.stdin.on('readable', () => {
+  let chunk;
+  while ((chunk = process.stdin.read()) !== null) {
+    const res = checkIfHasRepeatingChar2Time(chunk)
+    if(res) {
+      process.stdout.write(`${chunk}`);
+    }
+  }
+});
+
+process.stdin.on('end', () => {
+  process.stdout.write('end');
+});
+
+process.stdin.on('SIGINT', function () {
+  process.stdout.write('CMD + C pressed, exiting.\n');
+  process.exit();
+});

@@ -1,44 +1,62 @@
-// const inputs = ['asdf', 'fdas', 'asds', 'd fm', 'dfaa', 'aaaa', 'aabb', 'aaabb'];
+// https://leetcode.com/problems/longest-increasing-subsequence/
 
-// // asds
-// // dfaa
-// // aabb
-// // aaabb
+const input = [9, 3, 7, 4, 6, 9, 3, 13, 5, 0];
+// const input = [0,1,0,3,2,3];
 
-// for(const input of inputs) {
-//   console.log(input, checkIfHasRepeatingChar2Time(input))
-// }
+// 9 13
+// 3 7 9 13
+// 3 4 6 9 13
+
+function getLongestGrowingSequence(input) {
+  let arr = [];
+
+  while (input.length) {
+    let tempArr = [];
+    let indexOfElToRemove = null;
+
+    for (let j = 0; j < input.length; j++) {
+      if (
+        !tempArr.length ||
+        tempArr[tempArr.length-1] < input[j]
+      ) {
+        tempArr.push(input[j]);
+      }  
+      
+      if(indexOfElToRemove == null && input[j] > input[j + 1] && !tempArr.includes(input[j+1])) {
+        indexOfElToRemove = j;
+      }
+    }
+
+    if(tempArr.length > arr.length) {
+      arr = tempArr;
+    }
+
+    tempArr = [];
 
 
-function checkIfHasRepeatingChar2Time(str) {
-  const charMap = new Map();
-  for (const char of str) {
-    charMap.set(char, (charMap.get(char) || 0) + 1);
+    input.splice(indexOfElToRemove, 1);
+
   }
-  const filteredResult = [...charMap.values()].filter((value) => value === 2);
-  return filteredResult.length > 0;
+
+  return arr;
 }
 
+// output: 3 4 6 9 13
+const result = getLongestGrowingSequence(input);
 
-console.log('Enter text (sample asdf) or CMD + C to exit');
+console.log('result', result);
 
-process.stdin.setEncoding('utf8');
 
-process.stdin.on('readable', () => {
-  let chunk;
-  while ((chunk = process.stdin.read()) !== null) {
-    const res = checkIfHasRepeatingChar2Time(chunk)
-    if(res) {
-      process.stdout.write(`${chunk}`);
-    }
-  }
-});
+// function getLongestGrowingSequence(input) {
+//   let tempArr = []
+//   for (let i = 0; i < input.length; i++) {
+//     if(!tempArr.length || tempArr[tempArr.length - 1] < input[i]){
+//       tempArr.push(input[i])
+//     } else{
+//       tempArr.pop()
+//     }
+    
+//   }
+//   return tempArr
+// }
 
-process.stdin.on('end', () => {
-  process.stdout.write('end');
-});
-
-process.stdin.on('SIGINT', function () {
-  process.stdout.write('CMD + C pressed, exiting.\n');
-  process.exit();
-});

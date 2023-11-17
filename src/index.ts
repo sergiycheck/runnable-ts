@@ -1,8 +1,5 @@
 // https://leetcode.com/problems/longest-increasing-subsequence/
 
-
-
-
 // function getLongestGrowingSequence(input) {
 //   let arr = [];
 

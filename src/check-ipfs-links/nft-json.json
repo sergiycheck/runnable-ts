@@ -1,0 +1,1902 @@
+[
+  {
+    "id": 1,
+    "title": "BMM20 Osmium R2D2",
+    "rarity": 3,
+    "hashRate": 1050,
+    "totalMinted": 0,
+    "firstId": 1,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/1.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "1333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "1333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "3333000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "11111000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "33333000000000000000000"
+    }
+  },
+  {
+    "id": 2,
+    "title": "BMM20 Osmium OG88",
+    "rarity": 3,
+    "hashRate": 999,
+    "totalMinted": 0,
+    "firstId": 211,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/2.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "1333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "1333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "3333000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "11111000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "33333000000000000000000"
+    }
+  },
+  {
+    "id": 3,
+    "title": "BMM20 Gold D500",
+    "rarity": 2,
+    "hashRate": 410,
+    "totalMinted": 2,
+    "firstId": 421,
+    "remains": [52, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/3.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 4,
+    "title": "BMM20 Gold IQ99",
+    "rarity": 2,
+    "hashRate": 401,
+    "totalMinted": 0,
+    "firstId": 631,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/4.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 5,
+    "title": "BMM20 Gold IP88",
+    "rarity": 2,
+    "hashRate": 400,
+    "totalMinted": 0,
+    "firstId": 841,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/5.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 6,
+    "title": "BMM20 Gold MX69",
+    "rarity": 2,
+    "hashRate": 404,
+    "totalMinted": 0,
+    "firstId": 1051,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/6.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 7,
+    "title": "BMM20 Gold DDR4",
+    "rarity": 2,
+    "hashRate": 420,
+    "totalMinted": 1,
+    "firstId": 1261,
+    "remains": [54, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/7.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 8,
+    "title": "BMM20 Gold Z911",
+    "rarity": 2,
+    "hashRate": 399,
+    "totalMinted": 0,
+    "firstId": 1471,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/8.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 9,
+    "title": "BMM20 Gold BB88",
+    "rarity": 2,
+    "hashRate": 410,
+    "totalMinted": 1,
+    "firstId": 1681,
+    "remains": [54, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/9.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 10,
+    "title": "BMM20 Gold J007",
+    "rarity": 2,
+    "hashRate": 420,
+    "totalMinted": 0,
+    "firstId": 1891,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/10.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "555000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "555000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "1111000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "5555000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "11111000000000000000000"
+    }
+  },
+  {
+    "id": 11,
+    "title": "BMM20 Sapphire X600",
+    "rarity": 1,
+    "hashRate": 177,
+    "totalMinted": 0,
+    "firstId": 2101,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/11.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 12,
+    "title": "BMM20 Sapphire M1X1",
+    "rarity": 1,
+    "hashRate": 179,
+    "totalMinted": 0,
+    "firstId": 2311,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/12.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 13,
+    "title": "BMM20 Sapphire M200",
+    "rarity": 1,
+    "hashRate": 179,
+    "totalMinted": 0,
+    "firstId": 2521,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/13.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 14,
+    "title": "BMM20 Sapphire V333",
+    "rarity": 1,
+    "hashRate": 171,
+    "totalMinted": 1,
+    "firstId": 2731,
+    "remains": [54, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/14.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 15,
+    "title": "BMM20 Sapphire USB3",
+    "rarity": 1,
+    "hashRate": 174,
+    "totalMinted": 0,
+    "firstId": 2941,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/15.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 16,
+    "title": "BMM20 Sapphire YC99",
+    "rarity": 1,
+    "hashRate": 175,
+    "totalMinted": 0,
+    "firstId": 3151,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/16.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 17,
+    "title": "BMM20 Sapphire K99i",
+    "rarity": 1,
+    "hashRate": 176,
+    "totalMinted": 0,
+    "firstId": 3361,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/17.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 18,
+    "title": "BMM20 Sapphire XP95",
+    "rarity": 1,
+    "hashRate": 173,
+    "totalMinted": 0,
+    "firstId": 3571,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/18.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 19,
+    "title": "BMM20 Sapphire X999",
+    "rarity": 1,
+    "hashRate": 175,
+    "totalMinted": 0,
+    "firstId": 3781,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/19.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 20,
+    "title": "BMM20 Sapphire RX88",
+    "rarity": 1,
+    "hashRate": 175,
+    "totalMinted": 0,
+    "firstId": 3991,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/20.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 21,
+    "title": "BMM20 Sapphire F420",
+    "rarity": 1,
+    "hashRate": 178,
+    "totalMinted": 0,
+    "firstId": 4201,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/21.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 22,
+    "title": "BMM20 Sapphire V9X6",
+    "rarity": 1,
+    "hashRate": 174,
+    "totalMinted": 0,
+    "firstId": 4411,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/22.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 23,
+    "title": "BMM20 Sapphire GT60",
+    "rarity": 1,
+    "hashRate": 171,
+    "totalMinted": 0,
+    "firstId": 4621,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/23.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 24,
+    "title": "BMM20 Sapphire IQ66",
+    "rarity": 1,
+    "hashRate": 168,
+    "totalMinted": 0,
+    "firstId": 4831,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/24.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 25,
+    "title": "BMM20 Sapphire 0X99",
+    "rarity": 1,
+    "hashRate": 168,
+    "totalMinted": 0,
+    "firstId": 5041,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/25.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 26,
+    "title": "BMM20 Sapphire XD13",
+    "rarity": 1,
+    "hashRate": 168,
+    "totalMinted": 0,
+    "firstId": 5251,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/26.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 27,
+    "title": "BMM20 Sapphire YC77",
+    "rarity": 1,
+    "hashRate": 164,
+    "totalMinted": 0,
+    "firstId": 5461,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/27.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 28,
+    "title": "BMM20 Sapphire XY99",
+    "rarity": 1,
+    "hashRate": 171,
+    "totalMinted": 0,
+    "firstId": 5671,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/28.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 29,
+    "title": "BMM20 Sapphire RX70",
+    "rarity": 1,
+    "hashRate": 169,
+    "totalMinted": 0,
+    "firstId": 5881,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/29.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 30,
+    "title": "BMM20 Sapphire GT77",
+    "rarity": 1,
+    "hashRate": 177,
+    "totalMinted": 0,
+    "firstId": 6091,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/30.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "333000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "333000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "555000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "3333000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "5555000000000000000000"
+    }
+  },
+  {
+    "id": 31,
+    "title": "BMM20 Iron XBT5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 6301,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/31.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 32,
+    "title": "BMM20 Iron W220",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 6511,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/32.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 33,
+    "title": "BMM20 Iron S500",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 6721,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/33.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 34,
+    "title": "BMM20 Iron Z1K9",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 7,
+    "firstId": 6931,
+    "remains": [53, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/34.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 35,
+    "title": "BMM20 Iron L2X5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 7141,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/35.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 36,
+    "title": "BMM20 Iron 4GX9",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 7351,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/36.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 37,
+    "title": "BMM20 Iron GX21",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 7561,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/37.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 38,
+    "title": "BMM20 Iron MX66",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 7,
+    "firstId": 7771,
+    "remains": [54, 89, 19, 0, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/38.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 39,
+    "title": "BMM20 Iron L2R6",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 7981,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/39.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 40,
+    "title": "BMM20 Iron W20X",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 8191,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/40.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 41,
+    "title": "BMM20 Iron RX5G",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 8401,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/41.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 42,
+    "title": "BMM20 Iron H2O2",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 6,
+    "firstId": 8611,
+    "remains": [54, 89, 19, 0, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/42.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 43,
+    "title": "BMM20 Iron T9R5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 2,
+    "firstId": 8821,
+    "remains": [53, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/43.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 44,
+    "title": "BMM20 Iron LOL6",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 9031,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/44.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 45,
+    "title": "BMM20 Iron XV77",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 9241,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/45.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 46,
+    "title": "BMM20 Iron R1Z4",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 9451,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/46.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 47,
+    "title": "BMM20 Iron V8R8",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 2,
+    "firstId": 9661,
+    "remains": [54, 89, 19, 6, 40],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/47.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 48,
+    "title": "BMM20 Iron PX00",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 9871,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/48.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 49,
+    "title": "BMM20 Iron GX66",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 10081,
+    "remains": [54, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/49.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 50,
+    "title": "BMM20 Iron XP22",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 10291,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/50.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 51,
+    "title": "BMM20 Iron Q3N4",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 10501,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/51.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 52,
+    "title": "BMM20 Iron K2Q3",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 10711,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/52.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 53,
+    "title": "BMM20 Iron XT66",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 10921,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/53.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 54,
+    "title": "BMM20 Iron VQ77",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 11131,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/54.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 55,
+    "title": "BMM20 Iron W1X2",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 11341,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/55.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 56,
+    "title": "BMM20 Iron T8X9",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 11551,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/56.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 57,
+    "title": "BMM20 Iron J9Y5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 11761,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/57.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 58,
+    "title": "BMM20 Iron XT77",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 11971,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/58.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 59,
+    "title": "BMM20 Iron J966",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 12181,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/59.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 60,
+    "title": "BMM20 Iron X4X4",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 12391,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/60.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 61,
+    "title": "BMM20 Iron T200",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 12601,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/61.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 62,
+    "title": "BMM20 Iron T9X6",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 12811,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/62.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 63,
+    "title": "BMM20 Iron V5X5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 13021,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/63.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 64,
+    "title": "BMM20 Iron J9K6",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 13231,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/64.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 65,
+    "title": "BMM20 Iron L699",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 13441,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/65.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 66,
+    "title": "BMM20 Iron R9X1",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 13651,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/66.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 67,
+    "title": "BMM20 Iron MX4G",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 13861,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/67.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 68,
+    "title": "BMM20 Iron MXXL",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 14071,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/68.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 69,
+    "title": "BMM20 Iron L300",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 14281,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/69.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 70,
+    "title": "BMM20 Iron BX14",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 14491,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/70.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 71,
+    "title": "BMM20 Iron 0XHP",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 14701,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/71.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 72,
+    "title": "BMM20 Iron 0XYZ",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 14911,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/72.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 73,
+    "title": "BMM20 Iron FX12",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 15121,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/73.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 74,
+    "title": "BMM20 Iron HP11",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 15331,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/74.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 75,
+    "title": "BMM20 Iron MP3X",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 15541,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/75.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 76,
+    "title": "BMM20 Iron ZR99",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 15751,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/76.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 77,
+    "title": "BMM20 Iron GX01",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 15961,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/77.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 78,
+    "title": "BMM20 Iron W777",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 16171,
+    "remains": [54, 89, 19, 6, 41],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/78.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 79,
+    "title": "BMM20 Iron R699",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 16381,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/79.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 80,
+    "title": "BMM20 Iron K969",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 16591,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/80.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 81,
+    "title": "BMM20 Iron GX77",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 16801,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/81.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 82,
+    "title": "BMM20 Iron 5GXP",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 17011,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/82.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 83,
+    "title": "BMM20 Iron R8TT",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 17221,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/83.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 84,
+    "title": "BMM20 Iron FF88",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 17431,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/84.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 85,
+    "title": "BMM20 Iron XX66",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 17641,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/85.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 86,
+    "title": "BMM20 Iron C400",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 17851,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/86.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 87,
+    "title": "BMM20 Iron XY55",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 18061,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/87.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 88,
+    "title": "BMM20 Iron V8X8",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 18271,
+    "remains": [53, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/88.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 89,
+    "title": "BMM20 Iron S222",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 18481,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/89.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 90,
+    "title": "BMM20 Iron L2Z2",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 18691,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/90.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 91,
+    "title": "BMM20 Iron GTX5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 18901,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/91.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 92,
+    "title": "BMM20 Iron L200",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 19111,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/92.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 93,
+    "title": "BMM20 Iron QX60",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 19321,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/93.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 94,
+    "title": "BMM20 Iron X404",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 19531,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/94.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 95,
+    "title": "BMM20 Iron ML22",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 2,
+    "firstId": 19741,
+    "remains": [52, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/95.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 96,
+    "title": "BMM20 Iron FTX9",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 19951,
+    "remains": [53, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/96.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 97,
+    "title": "BMM20 Iron GTA5",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 20161,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/97.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 98,
+    "title": "BMM20 Iron GPT7",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 0,
+    "firstId": 20371,
+    "remains": [54, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/98.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 99,
+    "title": "BMM20 Iron ERC2",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 20581,
+    "remains": [53, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/99.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  },
+  {
+    "id": 100,
+    "title": "BMM20 Iron LVL1",
+    "rarity": 0,
+    "hashRate": 69,
+    "totalMinted": 1,
+    "firstId": 20791,
+    "remains": [53, 89, 19, 6, 42],
+    "count": 0,
+    "image": "https://bafybeicubtiobtvqx5g3mpd3ftfpabf3ky4zxanxnoydlgklvf5l63xq5e.ipfs.w3s.link/100.jpg",
+    "itemType": "NFT",
+    "presalePrices": {
+      "0x0000000000000000000000000000000000000000": "111000000000000000",
+      "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9": "111000000000000000",
+      "0x7169D38820dfd117C3FA1f22a697dBA58d90BA06": "222000000",
+      "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357": "888000000000000000000",
+      "0x5BdC0Bc6D2cccE56213a300587A84EDEb3481448": "2222000000000000000000"
+    }
+  }
+]

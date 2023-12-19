@@ -1,10 +1,6 @@
-import { matrixTranspose } from "./rotate-matrix/chartgpt-solution";
+import dotenv from 'dotenv';
+import { fetchAllTransactions } from './alchemy/get-transactions';
 
-const matrix = [
-  [3, 4, 5],
-  [1, 2, 4],
-  [2, 4, 1]
-]
+dotenv.config();
 
-console.log(matrixTranspose(matrix));
-
+fetchAllTransactions();

@@ -3,3 +3,4 @@ dist
 test_files
 coverage
 .env
+dev-service-acc.json

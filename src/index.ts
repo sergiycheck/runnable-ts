@@ -1,6 +1,4 @@
-import dotenv from 'dotenv';
-import { fetchAllTransactions } from './alchemy/get-transactions';
+const interactionId = '016rzvhhiegro1p6aq';
+const participantId = '0020nh2dqy94ac1243';
 
-dotenv.config();
-
-fetchAllTransactions();
+console.log(interactionId.length);

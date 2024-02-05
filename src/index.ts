@@ -1,4 +1,19 @@
-const interactionId = '016rzvhhiegro1p6aq';
-const participantId = '0020nh2dqy94ac1243';
+function count(coins, n, sum) {
+  console.log('coins', coins, 'n', n, 'sum', sum);
 
-console.log(interactionId.length);
+  if (sum == 0) return 1;
+
+  if (sum < 0) return 0;
+
+  if (n <= 0) return 0;
+
+  return count(coins, n - 1, sum) + count(coins, n, sum - coins[n - 1]);
+  // return count(coins, n - 1, sum);
+  // return count(coins, n, sum - coins[n - 1]);
+}
+
+const coins = [1, 2, 3];
+
+const n = coins.length;
+
+console.log(count(coins, n, 4));

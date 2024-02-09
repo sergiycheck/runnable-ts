@@ -1,19 +1,19 @@
 {
   "configurations": [
     {
-      "name": "Launch main.ts",
+      "name": "Launch test",
       "request": "launch",
       "type": "node",
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["run", "exec"],
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["run", "test", "convert-url-to-obj.test.ts"],
       "console": "integratedTerminal"
     },
     {
-      "name": "Launch index.js",
+      "name": "Launch index.ts",
       "request": "launch",
       "type": "node",
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["run", "exec-node"],
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["run", "exec"],
       "console": "integratedTerminal"
     }
   ]

@@ -1,19 +1,20 @@
-function count(coins, n, sum) {
-  console.log('coins', coins, 'n', n, 'sum', sum);
+const keys = ['user', 'name', 'firstname'];
 
-  if (sum == 0) return 1;
+const obj = {
+  user: {
+    name: {
+      firstname: 'Bob',
+      lastname: 'Smith',
+    },
+    favoritecolor: 'Light Blue',
+  },
+};
 
-  if (sum < 0) return 0;
+// user
+console.log(obj[keys[0]]);
 
-  if (n <= 0) return 0;
+// user.name
+console.log(obj[keys[0]][keys[1]]);
 
-  return count(coins, n - 1, sum) + count(coins, n, sum - coins[n - 1]);
-  // return count(coins, n - 1, sum);
-  // return count(coins, n, sum - coins[n - 1]);
-}
-
-const coins = [1, 2, 3];
-
-const n = coins.length;
-
-console.log(count(coins, n, 4));
+// user.name.firstname
+console.log(obj[keys[0]][keys[1]][keys[2]]);

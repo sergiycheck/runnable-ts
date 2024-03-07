@@ -1,27 +1,51 @@
-// var a = Promise.resolve().then().then();
+function duplicateCount1(text) {
+  //we have to put + to match more than 1 occurrence of the same character
+  const regex1 = /([^*])\1+/g;
 
-// var b = Promise.resolve('a');
-// console.log(b);
-// b.then();
-// b.then();
+  const partOfRegex1 = /[^*]/g;
 
-async function A() {
-  return 0;
+  const lowerCaseSplitSortedJoined = text
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join('');
+
+  const match1 = lowerCaseSplitSortedJoined.match(regex1);
+  console.log('match1', match1);
+
+  const match2 = lowerCaseSplitSortedJoined.match(partOfRegex1);
+  console.log('partOfRegex1', match2);
+
+  return (match1 || []).length;
 }
 
-// A()
-//   .then((res) => {
-//     throw 'err';
-//   })
-//   .catch((err) => {
-//     console.log('err in catch', err);
-//   })
-//   .then((res) => {})
-//   .finally(() => {});
+function duplicateCount2(text) {
+  return text
+    .toLowerCase()
+    .split('')
+    .filter(function (val, i, arr) {
+      const indexOf = arr.indexOf(val);
+      const lastIndexOf = arr.lastIndexOf(val);
+      // we are looking for the first occurrence with indexOf
+      // and the last occurrence with lastIndexOf
+      // if arr has only one occurrence of val, then indexOf and lastIndexOf will be the same
+      const indexOfIsNotI = indexOf !== i;
+      const lastIndexOfIsI = lastIndexOf === i;
+      return indexOfIsNotI && lastIndexOfIsI;
+    }).length;
+}
 
-var p1rej = Promise.reject('err');
-var p2 = Promise.resolve('a');
-var p3 = Promise.resolve('b');
+const testCases = [
+  '',
+  'abcde',
+  'aabbcde',
+  'aabBcde',
+  'indivisibility',
+  'Indivisibilities',
+  'aA11',
+];
 
-Promise.all([p1rej, p2, p3]).catch((err) => console.log('err in catch', err));
-Promise.all([p2, p3]).then((res) => console.log('res in then', res));
+testCases.forEach((testCase) => {
+  console.log('testCase', testCase);
+  console.log('duplicateCount1', duplicateCount1(testCase));
+});

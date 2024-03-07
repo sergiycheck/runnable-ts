@@ -9,7 +9,15 @@
       "console": "integratedTerminal"
     },
     {
-      "name": "Launch index.ts",
+      "name": "Launch index.ts with npx and ts-node",
+      "request": "launch",
+      "type": "node",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["ts-node", "./src/index.ts"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Launch index.ts with pnpm and tsx",
       "request": "launch",
       "type": "node",
       "runtimeExecutable": "pnpm",

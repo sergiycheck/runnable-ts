@@ -70,5 +70,3 @@ const avgByIndex = (arrs: number[][][]) => {
     }
   }, []);
 };
-
-console.log(avgByIndex(arrs));

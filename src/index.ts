@@ -1,74 +1,45 @@
-const arrs = [
-  [
-    [1, 2],
-    [3, 4],
-  ],
-  [
-    [5, 6],
-    [7, 8],
-  ],
-  [
-    [9, 10],
-    [11, 12],
-  ],
-  [
-    [13, 14],
-    [15, 16],
-  ],
-  [
-    [17, 18],
-    [19, 20],
-  ],
-];
+// const chunkArray = (arr: number[], size: number): number[][] => {
+//   return arr.reduce((prev, curr, idx) => {
+//     if (idx % size === 0) {
+//       return [...prev, [curr]];
+//     } else {
+//       const allElementsBeforeLast = prev.slice(0, -1);
+//       const lastElement = prev.slice(-1)[0];
 
-// I have to create this array
-const step1Arr = [
-  [
-    [
-      [1, 5, 9, 13, 17],
-      [2, 6, 10, 14, 18],
-    ],
-  ],
-  [
-    [
-      [3, 7, 11, 15, 19],
-      [4, 8, 12, 16, 20],
-    ],
-  ],
-];
+//       console.log('all elements before last', allElementsBeforeLast);
+//       console.log('last element', lastElement);
 
-const step2Arr = [
-  [9, 10],
-  [11, 12],
-];
+//       return [...allElementsBeforeLast, [...lastElement, curr]];
+//     }
+//   }, []);
+// };
 
-const avgByIndex = (arrs: number[][][]) => {
-  const arrsMapped = arrs.map((arr) => arr.flat(Infinity));
+// const chunk = (input, size) => {
+//   return input.reduce((arr, item, idx) => {
+//     return idx % size === 0
+//       ? [...arr, [item]]
+//       : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
+//   }, []);
+// };
 
-  const step1Arr = arrsMapped.reduce((acc, curr) => {
-    curr.forEach((item, i) => {
-      if (!acc[i]) {
-        acc[i] = [];
-      }
-      acc[i].push(item);
-    });
+const chunk = (input, size) => {
+  return input.reduce((arr, item, idx) => {
+    const toReturnIf0Remainder = [...arr, [item]];
 
-    return acc;
-  }, []);
+    const allArraysBeforeTheLast = arr.slice(0, -1);
+    const lastArray = arr.slice(-1)[0] ?? [];
 
-  const step2Arr = step1Arr.map(
-    (arr) => arr.reduce((acc, curr) => acc + curr, 0) / arr.length
-  );
+    const toReturnIfNot0Remainder = [
+      ...allArraysBeforeTheLast,
+      [...lastArray, item],
+    ];
 
-  return step2Arr.reduce((prev, curr, idx) => {
-    if (idx % 2 === 0) {
-      return [...prev, [curr]];
-    } else {
-      const firstPart = prev.slice(0, -1);
-      const lastPart = prev.slice(-1)[0];
-      return [...firstPart, [...lastPart, curr]];
-    }
+    return idx % size === 0 ? toReturnIf0Remainder : toReturnIfNot0Remainder;
   }, []);
 };
 
-console.log(avgByIndex(arrs));
+console.log(chunk(['a', 'b', 'c', 'd'], 2));
+// => [['a', 'b'], ['c', 'd']]
+
+console.log(chunk(['a', 'b', 'c', 'd'], 3));
+// => [['a', 'b', 'c'], ['d']]

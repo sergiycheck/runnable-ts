@@ -4,8 +4,8 @@
       "name": "Launch test",
       "request": "launch",
       "type": "node",
-      "runtimeExecutable": "pnpm",
-      "runtimeArgs": ["run", "test", "convert-url-to-obj.test.ts"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "test", "create-own-promise.spec.ts"],
       "console": "integratedTerminal"
     },
     {

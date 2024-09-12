@@ -1,10 +1,10 @@
-import { MyPromise } from './create-own-promise';
+import { MyPromise } from './custom-promise';
 
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 
 describe('MyPromise{}', () => {
   it('Should maintain chain of then() operations', async () => {
-    const spyFn = jest.fn();
+    const spyFn = vi.fn();
 
     new MyPromise((resolve) => {
       setTimeout(() => resolve(42), 100);
@@ -19,7 +19,7 @@ describe('MyPromise{}', () => {
   });
 
   it('Should catch()', async () => {
-    const spyFn = jest.fn();
+    const spyFn = vi.fn();
 
     new MyPromise((_, reject) => {
       reject(42);
@@ -34,7 +34,7 @@ describe('MyPromise{}', () => {
   });
 
   it('Should always run finally()', async () => {
-    const spyFn = jest.fn();
+    const spyFn = vi.fn();
 
     new MyPromise((resolve) => {
       resolve(42);
@@ -43,7 +43,7 @@ describe('MyPromise{}', () => {
       .then((x) => x - 2)
       .finally(spyFn);
 
-    new MyPromise((_) => {
+    new MyPromise((_, reject) => {
       reject(42);
       return 41;
     })
